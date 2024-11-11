@@ -16,4 +16,5 @@ export default defineNuxtConfig({
 		plugins: [vuetify()],
 	},
 	modules: ['@nuxtjs/apollo', ['@pinia/nuxt', { autoImports: ['defineStore', 'acceptHMRUpdate'] }]],
+	// Register global middleware here (Note that it's not inside `router.options`)
 })

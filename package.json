@@ -43,6 +43,7 @@
 	},
 	"dependencies": {
 		"@pinia/nuxt": "^0.5.1",
+		"jspdf": "^2.5.2",
 		"sass": "^1.68.0",
 		"vuetify": "^3.3.23"
 	},
